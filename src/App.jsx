@@ -33,7 +33,7 @@ function App() {
             <div
               className="h-screen w-full flex items-center justify-center"
               style={{
-                background: "linear-gradient(to right, #D9ED92, #B5E48C, #99D98C, #6DC58D, #52B69A, #34A0A4, #168AAD, #1A759F, #1C5987, #184E77)",
+                background: " linear-gradient(to right, #D9ED92, #B5E48C, #99D98C, #6DC58D, #52B69A, #34A0A4, #168AAD, #1A759F, #1C5987, #184E77)",
               }}
             >
               <div className="grid h-full w-full grid-cols-[repeat(10,_1fr)] grid-rows-[repeat(15,_minmax(50px,_auto))] gap-y-3 gap-x-2 p-5 pr-2 pt-16 xl:m-32 lg:m-16 m:m-4">
@@ -119,7 +119,7 @@ function App() {
                 </div>
 
                 {/* Personal Face Section */}
-                <div className="col-start-4 col-end-7 row-start-2 row-end-6 rounded-xl bg-gradient-to-r from-[#5efed3] to-emerald-50 overflow-y-scroll text-white bounce-on-load" style={{
+                <div className="col-start-4 col-end-7 row-start-2 row-end-6 rounded-xl bg-gradient-to-r from-[#5efed3] to-emerald-50 overflow-y-scroll text-white bounce-on-load pt =10 pb=10" style={{
                   background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))",
                 }}>
                   <object
@@ -182,6 +182,7 @@ function App() {
                   >
                     Your browser does not support SVG.
                   </object>
+
                 </div>
 
 
