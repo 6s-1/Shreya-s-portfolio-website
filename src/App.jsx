@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
-import Project from "./Project";
+import Projects from "./Projects";
 
 function App() {
   useEffect(() => {
@@ -33,10 +33,10 @@ function App() {
             <div
               className="h-screen w-full flex items-center justify-center"
               style={{
-                background: " linear-gradient(to right, #D9ED92, #B5E48C, #99D98C, #6DC58D, #52B69A, #34A0A4, #168AAD, #1A759F, #1C5987, #184E77)",
+                background: "bg-white/10",
               }}
             >
-              <div className="grid h-full w-full grid-cols-[repeat(10,_1fr)] grid-rows-[repeat(15,_minmax(50px,_auto))] gap-y-3 gap-x-2 p-5 pr-2 pt-16 xl:m-32 lg:m-16 m:m-4">
+              <div className="grid h-full w-full grid-cols-[repeat(10,_1fr)] grid-rows-[repeat(15,_minmax(50px,_auto))] gap-y-3 gap-x-2 p-4 pr-2 pt-14 xl:m-32 lg:m-16 m:m-4">
 
                 {/* Work Experience Section */}
                 <div className="col-start-7 col-end-12 row-start-1 row-end-9 rounded-xl bg-gradient-to-r from-blue-900/80 to-blue-500/50 p-6 overflow-y-scroll text-white" style={{
@@ -172,7 +172,7 @@ function App() {
                   style={{
                     background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))", // Emerald green tones with transparency
                   }}
-                  onClick={() => navigate("/project")} // Programmatically navigate to /projects
+                  onClick={() => navigate("/projects")} // Programmatically navigate to /projects
                 >
                   <object
                     type="image/svg+xml"
@@ -282,7 +282,7 @@ function App() {
         />
 
         {/* Project Page */}
-        <Route path="/project" element={<Project />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </>
   );
