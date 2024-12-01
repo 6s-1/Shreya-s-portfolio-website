@@ -4,16 +4,7 @@ import svgr from 'vite-plugin-svgr';
 
 
 // https://vite.dev/config/
-export default defineConfig(({ command }) => {
-  const config = {
-    plugins: [react(), svgr()],
-    base: '/Shreya-s-portfolio-website/',
-  }
-
-  if (command !== 'serve') {
-    config.base = '/Shreya-s-portfolio-website/'
-  }
-
-  return config
-})
-
+export default defineConfig({
+  plugins: [react(), svgr()],
+  base: '/',
+});
