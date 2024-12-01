@@ -151,7 +151,7 @@ function App() {
                 }}>
                   <object
                     type="image/svg+xml"
-                    data="Shreya_face_shadow.svg"
+                    data="/shreya_face_shadow.svg"
                     className="w-full h-full object-cover"
                     style={{
                       filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2))",
@@ -205,7 +205,7 @@ function App() {
                 >
                   <object
                     type="image/svg+xml"
-                    data="project_button.svg"
+                    data="/project_button.svg"
                     className="w-full h-full object-cover"
                     style={{ pointerEvents: "none" }}
                   >
@@ -253,7 +253,7 @@ function App() {
                 >
                   <object
                     type="image/svg+xml"
-                    data="resume_button_try_3.svg"
+                    data="/resume_button_try_3.svg"
                     className="w-full h-full object-cover"
                     style={{ pointerEvents: "none" }}
                   >
@@ -280,7 +280,7 @@ function App() {
                     {/* GitHub Button */}
                     <object
                       type="image/svg+xml"
-                      data="GitHub_button.svg"
+                      data="/GitHub_button.svg"
                       className="w-12 h-12 cursor-pointer"
                       onClick={() => alert("GitHub button clicked!")}
                     >
@@ -290,7 +290,7 @@ function App() {
                     {/* Gmail Button */}
                     <object
                       type="image/svg+xml"
-                      data="Gmail_button.svg"
+                      data="/Gmail_button.svg"
                       className="w-12 h-12 cursor-pointer"
                       onClick={() => alert("Gmail button clicked!")}
                     >
@@ -300,7 +300,7 @@ function App() {
                     {/* LinkedIn Button */}
                     <object
                       type="image/svg+xml"
-                      data="linkedIn_button.svg"
+                      data="/linkedIn_button.svg"
                       className="w-12 h-12 cursor-pointer"
                       onClick={() => alert("LinkedIn button clicked!")}
                     >

@@ -7,13 +7,13 @@ function AppRouter() {
     <BrowserRouter
       basename={import.meta.env.DEV ? '/' : '/Shreya-s-portfolio-website/'}
     >
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-      </Routes>
-    </Router>
-     </BrowserRouter>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
+      </Router>
+    </BrowserRouter>
   );
 }
 
