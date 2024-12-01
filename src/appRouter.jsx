@@ -5,7 +5,7 @@ import ProjectsPage from './ProjectsPage'; // Projects page
 function AppRouter() {
   return (
     <BrowserRouter
-      basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}
+      basename={import.meta.env.DEV ? '/Shreya-s-personal-portfolio/' : '/react-vite-gh-pages/'}
     >
     <Router>
       <Routes>
