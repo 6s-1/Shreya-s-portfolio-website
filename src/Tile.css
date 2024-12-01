@@ -1,0 +1,30 @@
+/* Tiles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure body and html span the viewport */
+    width: 100%;  /* Ensure body and html span the viewport */
+    overflow: hidden; /* Prevent scrollbars */
+  }
+  
+  
+  #tile-container {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr); /* 100 equally divided columns */
+    grid-auto-rows: 1fr; /* Automatically adjust the rows to match column width */
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure it's behind other elements */
+  }
+  
+  .tile {
+    background-color: grey;
+    aspect-ratio: 1 / 1; /* Ensures the tile is always square */
+    width: 100%; /* Let the grid cell define the width */
+    transition: background-color 0.3s ease;
+  }
+  
+  

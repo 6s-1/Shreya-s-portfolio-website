@@ -1,13 +1,45 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Main Container */
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0; /* Removed padding */
   text-align: center;
 }
 
+/* Tile Container */
+#tile-container {
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+  grid-template-rows: repeat(100, 1fr);
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Tiles */
+.tile {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+
+/* Logo */
 .logo {
   height: 6em;
-  padding: 1.5em;
+  padding: 1.5em; /* Remove or adjust this if needed */
   will-change: filter;
   transition: filter 300ms;
 }
@@ -18,6 +50,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Keyframes */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -33,6 +66,7 @@
   }
 }
 
+/* Card */
 .card {
   padding: 2em;
 }

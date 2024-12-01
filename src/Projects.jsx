@@ -5,8 +5,7 @@ function Projects() {
     <div
       className="min-h-screen w-full"
       style={{
-        background:
-          "linear-gradient(to right, #D9ED92, #B5E48C, #99D98C, #6DC58D, #52B69A, #34A0A4, #168AAD, #1A759F, #1C5987, #184E77)",
+        background: "grey",
       }}
     >
       <div
@@ -27,7 +26,7 @@ function Projects() {
             overflow-hidden
             shadow-lg 
             mx-8
-            font-lora
+            font-quantico
           "
         >
           {/* SVG Section */}

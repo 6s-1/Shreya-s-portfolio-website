@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Projects from "./Projects";
+//import './Tile.css';
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,15 @@ function App() {
 
   const navigate = useNavigate(); // Hook for programmatic navigation
 
+  // const handleTileHover = (e) => {
+  //   const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`; // Random hex color
+  //   e.target.style.backgroundColor = randomColor; // Change tile color
+  //   setTimeout(() => {
+  //     e.target.style.backgroundColor = "grey"; // Reset to grey after 300ms
+  //   }, 300);
+  // };
+
+
   return (
     <>
       {/* Define Routes */}
@@ -33,17 +43,32 @@ function App() {
             <div
               className="h-screen w-full flex items-center justify-center"
               style={{
-                background: "bg-white/10",
+                background: "grey",
+                // backgroundImage: "url('/contour_map-3.svg')", // Path to your SVG
+                // backgroundSize: "cover", // Adjusts how the SVG scales
+                // backgroundPosition: "center", // Centers the SVG
+                // backgroundRepeat: "no-repeat", // Prevents tiling
               }}
             >
+            {/* Tile Animation Grid */}
+             {/* <div id="tile-container">
+                {Array.from({ length: 10000 }).map((_, index) => (
+                  <div
+                    key={index}
+                    className="tile"
+                    onMouseOver={handleTileHover}
+                  ></div>
+                ))}
+              </div> */}
               <div className="grid h-full w-full grid-cols-[repeat(10,_1fr)] grid-rows-[repeat(15,_minmax(50px,_auto))] gap-y-3 gap-x-2 p-4 pr-2 pt-14 xl:m-32 lg:m-16 m:m-4">
 
                 {/* Work Experience Section */}
-                <div className="col-start-7 col-end-12 row-start-1 row-end-9 rounded-xl bg-gradient-to-r from-blue-900/80 to-blue-500/50 p-6 overflow-y-scroll text-white" style={{
-                  background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))", // Emerald green tones with transparency
+                <div className="col-start-7 col-end-12 row-start-1 row-end-9 rounded-xl  p-6 overflow-y-scroll text-white" style={{
+                  background: "transparent", // Emerald green tones with transparency
+                  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
                   <h2 className="text-2xl font-bold font-[Lora] mb-8 text-center">Experience & Interships</h2>
-
+                
                   {/* Timeline Container */}
                   <div className="relative border-l-4 border-white/60">
                     {/* Software Engineering Intern - Ericsson */}
@@ -113,14 +138,16 @@ function App() {
 
                 {/* Personal Name Section */}
                 <div className="col-start-4 col-end-7 row-start-1 row-end-2 rounded-xl bg-gradient-to-r from-[#5efed3] to-emerald-50 overflow-y-scroll text-white bounce-on-load" style={{
-                  background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))",
+                  background: "transparent",
+                  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
                   <h2 className="text-2xl font-bold font-[Lora] mb-8 text-center">SHREYA SAXENA</h2>
                 </div>
 
                 {/* Personal Face Section */}
                 <div className="col-start-4 col-end-7 row-start-2 row-end-6 rounded-xl bg-gradient-to-r from-[#5efed3] to-emerald-50 overflow-y-scroll text-white bounce-on-load pt =10 pb=10" style={{
-                  background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))",
+                  background: "transparent",
+                  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
                   <object
                     type="image/svg+xml"
@@ -137,7 +164,8 @@ function App() {
 
                 {/* Education Section */}
                 <div className="col-start-4 col-end-7 row-start-6 row-end-12 rounded-xl bg-gradient-to-r from-blue-900/80 to-blue-500/50 p-6 overflow-y-scroll text-white" style={{
-                  background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))", // Emerald green tones with transparency
+                  background: "transparent", 
+                  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
                   <h2 className="text-2xl font-bold font-[Lora] mb-8 text-center">Education</h2>
 
@@ -170,7 +198,8 @@ function App() {
                 <div
                   className="col-start-1 col-end-4 row-start-1 row-end-9 rounded-xl flex items-center justify-center bounce-on-load transform transition-transform duration-200 active:scale-95 hover:scale-105 cursor-pointer relative"
                   style={{
-                    background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))", // Emerald green tones with transparency
+                    background: "transparent)", 
+                    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                   }}
                   onClick={() => navigate("/projects")} // Programmatically navigate to /projects
                 >
@@ -187,8 +216,9 @@ function App() {
 
 
                 {/* Miscellaneous Section */}
-                <div className="col-start-7 col-end-12 row-start-9 row-end-15 rounded-xl bg-gradient-to-r from-yellow-600 to-blue-900 p-4 overflow-y-scroll text-white bounce-on-load" style={{
-                  background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))", // Emerald green tones with transparency
+                <div className="col-start-9 col-end-12 row-start-9 row-end-12 rounded-xl bg-gradient-to-r from-yellow-600 to-blue-900 p-4 overflow-y-scroll text-white bounce-on-load" style={{
+                  background: "transparent", 
+                  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
                   <h2 className="text-xl font-bold">Tech I Love / Miscellaneous</h2>
                 </div>
@@ -197,7 +227,8 @@ function App() {
                 <div
                   className="col-start-1 col-end-4 row-start-9 row-end-12 rounded-xl bg-gradient-to-r from-[#5bb8ff] to-[#d5fed6] flex items-center justify-center bounce-on-load transform transition-transform duration-200 active:scale-95 hover:scale-105 cursor-pointer relative"
                   style={{
-                    background: "linear-gradient(to right, rgba(16, 185, 129, 0.20), rgba(236, 253, 245, 0.20))",
+                    background: "transparent",
+                    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                   }}
                   onClick={() => {
                     console.log("Testing");
@@ -240,8 +271,9 @@ function App() {
                 </div>
 
                 {/* Contact Section */}
-                <div className="col-start-7 col-end-12 row-start-10 row-end-12 rounded-xl bg-gradient-to-r from-pink-600 to-blue-900 p-4 overflow-y-scroll text-white bounce-on-load" style={{
-                  background: "linear-gradient(to right, rgba(16, 185, 129, 0.10), rgba(236, 253, 245, 0.10))", // Emerald green tones with transparency
+                <div className="col-start-7 col-end-9 row-start-9 row-end-12 rounded-xl  p-4 overflow-y-scroll text-white bounce-on-load" style={{
+                  background: "transparent", 
+                  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
                   <h2 className="text-xl font-bold mb-4">Contact Me</h2>
                   <div className="flex justify-around items-center gap-4">
