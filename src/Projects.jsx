@@ -302,7 +302,7 @@ function Projects() {
         text-sm
       "
     >
-      <span className="material-icons mr-2">code</span>
+      <span className="material-icons mr-2">run</span>
     </a>
   </div>
 
@@ -530,7 +530,7 @@ function Projects() {
         text-sm
       "
     >
-      <span className="material-icons mr-2">code</span>
+      <span className="material-icons mr-2">run</span>
     </a>
   </div>
 
