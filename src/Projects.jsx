@@ -44,7 +44,7 @@ function Projects() {
 
             {/* Code Button */}
             <a
-              href="https://github.com/your-repo-link"
+              href="https://github.com/6s-1/AI-CLUB-CHATBOT-Generator"
               target="_blank"
               rel="noopener noreferrer"
               className="
