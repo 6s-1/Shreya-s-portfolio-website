@@ -77,7 +77,7 @@ Error generating stack: `+o.message+`
             shadow-lg 
             mx-8
             font-quantico
-          `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("object",{type:"image/svg+xml",data:"/chatbot.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."}),d.jsx("a",{href:"https://github.com/6s-1/AI-CLUB-CHATBOT-Generator",target:"_blank",rel:"noopener noreferrer",className:`
+          `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("object",{type:"image/svg+xml",data:"chatbot.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."}),d.jsx("a",{href:"https://github.com/6s-1/AI-CLUB-CHATBOT-Generator",target:"_blank",rel:"noopener noreferrer",className:`
                 absolute 
                 bottom-4 
                 right-4 
@@ -103,7 +103,7 @@ Error generating stack: `+o.message+`
     overflow-hidden
     shadow-lg 
     mx-8
-  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"/pantry_sidekick.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://github.com/6s-1/Pantry-Sidekick_GIT-Hackathon-2024",target:"_blank",rel:"noopener noreferrer",className:`
+  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"pantry_sidekick.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://github.com/6s-1/Pantry-Sidekick_GIT-Hackathon-2024",target:"_blank",rel:"noopener noreferrer",className:`
         absolute 
         bottom-4 
         right-4 
@@ -129,7 +129,7 @@ Error generating stack: `+o.message+`
     overflow-hidden
     shadow-lg 
     mx-8
-  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"/aid_finder.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://github.com/6s-1/AID-FINDER",target:"_blank",rel:"noopener noreferrer",className:`
+  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"aid_finder.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://github.com/6s-1/AID-FINDER",target:"_blank",rel:"noopener noreferrer",className:`
         absolute 
         bottom-4 
         right-4 
@@ -155,7 +155,7 @@ Error generating stack: `+o.message+`
     overflow-hidden
     shadow-lg 
     mx-8
-  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"/gandhian.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://xd.adobe.com/view/5d2d754b-6f35-47aa-6c67-0677db5b3444-2b1c/",target:"_blank",rel:"noopener noreferrer",className:`
+  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"gandhian.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://xd.adobe.com/view/5d2d754b-6f35-47aa-6c67-0677db5b3444-2b1c/",target:"_blank",rel:"noopener noreferrer",className:`
         absolute 
         bottom-4 
         right-4 
@@ -181,7 +181,7 @@ Error generating stack: `+o.message+`
     overflow-hidden
     shadow-lg 
     mx-8
-  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"/aircraft.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://github.com/6s-1/Century-of-Skies-Analyzing-100-Years-of-Aircraft-Incident-Data-",target:"_blank",rel:"noopener noreferrer",className:`
+  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"aircraft.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://github.com/6s-1/Century-of-Skies-Analyzing-100-Years-of-Aircraft-Incident-Data-",target:"_blank",rel:"noopener noreferrer",className:`
         absolute 
         bottom-4 
         right-4 
@@ -207,7 +207,7 @@ Error generating stack: `+o.message+`
     overflow-hidden
     shadow-lg 
     mx-8
-  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"/carbon.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://github.com/6s-1/Carbon-Emission-Calculator",target:"_blank",rel:"noopener noreferrer",className:`
+  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"carbon.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://github.com/6s-1/Carbon-Emission-Calculator",target:"_blank",rel:"noopener noreferrer",className:`
         absolute 
         bottom-4 
         right-4 
@@ -233,7 +233,7 @@ Error generating stack: `+o.message+`
     overflow-hidden
     shadow-lg 
     mx-8
-  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"/wildfire.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://app.powerbi.com/view?r=eyJrIjoiMDdjMjY4YTQtMjI1ZC00OGFhLTk1MGItNTMwNGY5YjRmYzQzIiwidCI6IjJiODMyY2E0LWM0ODQtNDE2Yi04NjE0LTVkNWQ3M2IwYjk0MSJ9",target:"_blank",rel:"noopener noreferrer",className:`
+  `,children:[d.jsxs("div",{className:"relative",children:[d.jsx("a",{href:"#",target:"_blank",rel:"noopener noreferrer",children:d.jsx("object",{type:"image/svg+xml",data:"wildfire.svg",className:"w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl",style:{filter:"drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))"},children:"Your browser does not support SVG."})}),d.jsx("a",{href:"https://app.powerbi.com/view?r=eyJrIjoiMDdjMjY4YTQtMjI1ZC00OGFhLTk1MGItNTMwNGY5YjRmYzQzIiwidCI6IjJiODMyY2E0LWM0ODQtNDE2Yi04NjE0LTVkNWQ3M2IwYjk0MSJ9",target:"_blank",rel:"noopener noreferrer",className:`
         absolute 
         bottom-4 
         right-4 
