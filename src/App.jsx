@@ -232,7 +232,7 @@ function App() {
                   }}
                   onClick={() => {
                     console.log("Testing");
-                    const resumePath = "/Shreya-Saxena-Resume.pdf";
+                    const resumePath = "Shreya-Saxena-Resume.pdf";
                     const anchor = document.createElement("a");
                     anchor.href = resumePath;
                     anchor.download = "Shreya-Saxena-Resume.pdf";
