@@ -115,6 +115,30 @@ function Projects() {
               Your browser does not support SVG.
             </object>
           </a>
+
+          {/* Code Button */}
+          <a
+              href="https://github.com/6s-1/Pantry-Sidekick_GIT-Hackathon-2024"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                absolute 
+                bottom-4 
+                right-4 
+                bg-gray-700 
+                hover:bg-gray-600 
+                text-white 
+                font-semibold 
+                px-4 
+                py-2 
+                rounded-lg 
+                flex 
+                items-center
+                text-sm
+              "
+            >
+              <span className="material-icons mr-2">code</span>
+            </a>
            {/* Text and Details Section */}
            <div className="ml-4 flex-grow">
             <h2 className="text-2xl font-bold mb-2">Pantry Sidekick</h2>
@@ -160,6 +184,33 @@ function Projects() {
               Your browser does not support SVG.
             </object>
           </a>
+
+
+          {/* Code Button */}
+          <a
+              href="https://github.com/6s-1/AID-FINDER"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                absolute 
+                bottom-4 
+                right-4 
+                bg-gray-700 
+                hover:bg-gray-600 
+                text-white 
+                font-semibold 
+                px-4 
+                py-2 
+                rounded-lg 
+                flex 
+                items-center
+                text-sm
+              "
+            >
+              <span className="material-icons mr-2">code</span>
+            </a>
+
+          
           {/* Text and Details Section */}
           <div className="ml-4 flex-grow">
             <h2 className="text-2xl font-bold mb-2">Aid-Finder</h2>
@@ -205,6 +256,30 @@ function Projects() {
             </object>
           </a>
 
+           {/* Code Button */}
+           <a
+              href="https://xd.adobe.com/view/5d2d754b-6f35-47aa-6c67-0677db5b3444-2b1c/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                absolute 
+                bottom-4 
+                right-4 
+                bg-gray-700 
+                hover:bg-gray-600 
+                text-white 
+                font-semibold 
+                px-4 
+                py-2 
+                rounded-lg 
+                flex 
+                items-center
+                text-sm
+              "
+            >
+              <span className="material-icons mr-2">code</span>
+            </a>
+
           <div className="ml-4 flex-grow">
             <h2 className="text-2xl font-bold mb-2">The Gandhian Code</h2>
             <p className="text-sm md:text-base lg:text-lg mb-2">
@@ -247,6 +322,30 @@ function Projects() {
               Your browser does not support SVG.
             </object>
           </a>
+
+           {/* Code Button */}
+           <a
+              href="https://github.com/6s-1/Century-of-Skies-Analyzing-100-Years-of-Aircraft-Incident-Data-"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                absolute 
+                bottom-4 
+                right-4 
+                bg-gray-700 
+                hover:bg-gray-600 
+                text-white 
+                font-semibold 
+                px-4 
+                py-2 
+                rounded-lg 
+                flex 
+                items-center
+                text-sm
+              "
+            >
+              <span className="material-icons mr-2">code</span>
+            </a>
           <div className="ml-4 flex-grow">
             <h2 className="text-2xl font-bold mb-2">Aircraft Analysis</h2>
             <p className="text-sm md:text-base lg:text-lg mb-2">
@@ -289,6 +388,30 @@ function Projects() {
               Your browser does not support SVG.
             </object>
           </a>
+
+           {/* Code Button */}
+           <a
+              href="https://github.com/6s-1/Carbon-Emission-Calculator"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                absolute 
+                bottom-4 
+                right-4 
+                bg-gray-700 
+                hover:bg-gray-600 
+                text-white 
+                font-semibold 
+                px-4 
+                py-2 
+                rounded-lg 
+                flex 
+                items-center
+                text-sm
+              "
+            >
+              <span className="material-icons mr-2">code</span>
+            </a>
           <div className="ml-4 flex-grow">
             <h2 className="text-2xl font-bold mb-2">Carbon Emission Calculator</h2>
             <p className="text-sm md:text-base lg:text-lg mb-2">
@@ -331,6 +454,30 @@ function Projects() {
               Your browser does not support SVG.
             </object>
           </a>
+
+           {/* Code Button */}
+           <a
+              href="https://app.powerbi.com/view?r=eyJrIjoiMDdjMjY4YTQtMjI1ZC00OGFhLTk1MGItNTMwNGY5YjRmYzQzIiwidCI6IjJiODMyY2E0LWM0ODQtNDE2Yi04NjE0LTVkNWQ3M2IwYjk0MSJ9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                absolute 
+                bottom-4 
+                right-4 
+                bg-gray-700 
+                hover:bg-gray-600 
+                text-white 
+                font-semibold 
+                px-4 
+                py-2 
+                rounded-lg 
+                flex 
+                items-center
+                text-sm
+              "
+            >
+              <span className="material-icons mr-2">code</span>
+            </a>
           <div className="ml-4 flex-grow">
             <h2 className="text-2xl font-bold mb-2">Ai driven wildfire research</h2>
             <p className="text-sm md:text-base lg:text-lg mb-2">
