@@ -1,10 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import svgr from 'vite-plugin-svgr';
+import svgr from 'vite-plugin-svgr'
 
-
-// https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  base: command === 'serve' ? '/' : '/Shreya-s-portfolio-website/', // Use '/' for dev and '/repository-name/' for prod
   plugins: [react(), svgr()],
-  base: '/'
-});
+}))

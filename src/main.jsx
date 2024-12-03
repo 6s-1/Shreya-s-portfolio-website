@@ -1,13 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
-import './index.css'
-import App from './App.jsx'
+import './index.css';
+import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router>
+    <Router basename="/Shreya-s-portfolio-website"> {/* Replace <repository-name> with your actual repository name */}
       <App />
     </Router>
   </StrictMode>,
-)
+);
