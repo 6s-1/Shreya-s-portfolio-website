@@ -33,7 +33,7 @@ function Projects() {
           <div className="relative">
             <object
               type="image/svg+xml"
-              data="/chatbot.svg"
+              data="chatbot.svg"
               className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
               style={{
                 filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -108,7 +108,7 @@ function Projects() {
             <a href="#" target="_blank" rel="noopener noreferrer">
               <object
                 type="image/svg+xml"
-                data="/pantry_sidekick.svg"
+                data="pantry_sidekick.svg"
                 className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
                 style={{
                   filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -192,7 +192,7 @@ function Projects() {
     <a href="#" target="_blank" rel="noopener noreferrer">
       <object
         type="image/svg+xml"
-        data="/aid_finder.svg"
+        data="aid_finder.svg"
         className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
         style={{
           filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -271,7 +271,7 @@ function Projects() {
     <a href="#" target="_blank" rel="noopener noreferrer">
       <object
         type="image/svg+xml"
-        data="/gandhian.svg"
+        data="gandhian.svg"
         className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
         style={{
           filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -352,7 +352,7 @@ function Projects() {
     <a href="#" target="_blank" rel="noopener noreferrer">
       <object
         type="image/svg+xml"
-        data="/aircraft.svg"
+        data="aircraft.svg"
         className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
         style={{
           filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -427,7 +427,7 @@ function Projects() {
     <a href="#" target="_blank" rel="noopener noreferrer">
       <object
         type="image/svg+xml"
-        data="/carbon.svg"
+        data="carbon.svg"
         className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
         style={{
           filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -499,7 +499,7 @@ function Projects() {
     <a href="#" target="_blank" rel="noopener noreferrer">
       <object
         type="image/svg+xml"
-        data="/wildfire.svg"
+        data="wildfire.svg"
         className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
         style={{
           filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
