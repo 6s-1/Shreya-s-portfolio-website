@@ -46,7 +46,7 @@ function App() {
             >
               <object
                 type="image/svg+xml"
-                data="/bg_main.svg"
+                data="/bg_main-v1.svg"
                 className="absolute w-full h-full"
                 style={{
                   zIndex: -1,
