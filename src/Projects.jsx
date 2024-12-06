@@ -8,7 +8,7 @@ function Projects() {
     >
       <object
         type="image/svg+xml"
-        data="/bg-p.svg"
+        data="/bg_project.svg"
         className="fixed top-0 left-0 w-full h-full"
         style={{
           zIndex: -1,
