@@ -144,38 +144,38 @@ function App() {
 
                 {/* Personal Name Section */}
                 <div
-  className="flex items-center justify-center col-start-4 col-end-7 row-start-1 row-end-2 rounded-xl text-white bounce-on-load"
-  style={{
-    backgroundColor: "rgba(255, 255, 255, 0.1)",
-    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
-    height: "100%", // Ensure the div has height
-  }}
->
-  <h2 className="text-2xl font-bold font-[Lora] text-center">SHREYA SAXENA</h2>
-</div>
+                  className="flex items-center justify-center col-start-4 col-end-7 row-start-1 row-end-2 rounded-xl text-white bounce-on-load"
+                  style={{
+                    backgroundColor: "rgba(255, 255, 255, 0.1)",
+                    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+                    height: "100%", // Ensure the div has height
+                  }}
+                >
+                  <h2 className="text-2xl font-bold font-[Lora] text-center">SHREYA SAXENA</h2>
+                </div>
 
 
                 {/* Personal Face Section */}
                 <div
-  className="flex items-center justify-center col-start-4 col-end-7 row-start-2 row-end-6 rounded-xl text-white bounce-on-load"
-  style={{
-    backgroundColor: "rgba(255, 255, 255, 0.1)",
-    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
-    height: "100%", // Ensures the container has a height to center the content
-  }}
->
-  <object
-    type="image/svg+xml"
-    data="shreya_face_shadow.svg"
-    className="w-full h-full object-cover"
-    style={{
-      filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2))",
-      pointerEvents: "none",
-    }}
-  >
-    Your browser does not support SVG.
-  </object>
-</div>
+                  className="flex items-center justify-center col-start-4 col-end-7 row-start-2 row-end-6 rounded-xl text-white bounce-on-load"
+                  style={{
+                    backgroundColor: "rgba(255, 255, 255, 0.1)",
+                    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+                    height: "100%", // Ensures the container has a height to center the content
+                  }}
+                >
+                  <object
+                    type="image/svg+xml"
+                    data="shreya_face_shadow.svg"
+                    className="w-full h-full object-cover"
+                    style={{
+                      filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2))",
+                      pointerEvents: "none",
+                    }}
+                  >
+                    Your browser does not support SVG.
+                  </object>
+                </div>
 
                 {/* Education Section */}
                 <div className="col-start-4 col-end-7 row-start-6 row-end-12 rounded-xl  p-6 overflow-y-scroll text-white custom-scrollbar" style={{
@@ -230,50 +230,50 @@ function App() {
                 </div>
 
 
-               {/* Featured Section */}
-<div className="col-start-9 col-end-12 row-start-9 row-end-12 rounded-xl p-6 overflow-y-scroll text-white" style={{
-  backgroundColor: "rgba(255, 255, 255, 0.1)",
-  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
-}}>
-  <h2 className="text-2xl font-bold font-[Lora] mb-8 text-center">Featured</h2>
+                {/* Featured Section */}
+                <div className="col-start-9 col-end-12 row-start-9 row-end-12 rounded-xl p-6 overflow-y-scroll text-white" style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.1)",
+                  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+                }}>
+                  <h2 className="text-2xl font-bold font-[Lora] mb-8 text-center">Featured</h2>
 
-  {/* Timeline Container */}
-  <div className="relative border-l-4 border-white/60">
-    {/* Navigating AI Article */}
-    <div className="mb-8 ml-8 bg-white/10 p-3 rounded-lg shadow-lg relative">
-      <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white/60"></div>
-      <a
-        href="https://www.thephoenixnews.com/posts/navigating-ai-ubcos-artificial-intelligence-club"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 hover:text-blue-300 underline text-sm font-semibold"
-      >
-        Shreya Saxena featured in Phoenix News
-      </a>
-      <p className="italic mb-1 text-xs">Phoenix News</p>
-      <p className="text-xs">
-        Read about Shreya's work with the AI Club at UBCO and how it’s fostering innovation in artificial intelligence.
-      </p>
-    </div>
+                  {/* Timeline Container */}
+                  <div className="relative border-l-4 border-white/60">
+                    {/* Navigating AI Article */}
+                    <div className="mb-8 ml-8 bg-white/10 p-3 rounded-lg shadow-lg relative">
+                      <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white/60"></div>
+                      <a
+                        href="https://www.thephoenixnews.com/posts/navigating-ai-ubcos-artificial-intelligence-club"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300 underline text-sm font-semibold"
+                      >
+                        Shreya Saxena featured in Phoenix News
+                      </a>
+                      <p className="italic mb-1 text-xs">Phoenix News</p>
+                      <p className="text-xs">
+                        Read about Shreya's work with the AI Club at UBCO and how it’s fostering innovation in artificial intelligence.
+                      </p>
+                    </div>
 
-    {/* Instagram Highlights */}
-    <div className="mb-8 ml-8 bg-white/10 p-3 rounded-lg shadow-lg relative">
-      <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white/60"></div>
-      <a
-        href="https://www.instagram.com/p/C8qM4DHPWwF/?img_index=1"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 hover:text-blue-300 underline text-sm font-semibold"
-      >
-        Shreya Saxena featured on Instagram
-      </a>
-      <p className="italic mb-1 text-xs">Instagram</p>
-      <p className="text-xs">
-        Highlights from Shreya’s journey with the AI Club and her impactful contributions in AI.
-      </p>
-    </div>
-  </div>
-</div>
+                    {/* Instagram Highlights */}
+                    <div className="mb-8 ml-8 bg-white/10 p-3 rounded-lg shadow-lg relative">
+                      <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white/60"></div>
+                      <a
+                        href="https://www.instagram.com/p/C8qM4DHPWwF/?img_index=1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300 underline text-sm font-semibold"
+                      >
+                        Shreya Saxena featured on Instagram
+                      </a>
+                      <p className="italic mb-1 text-xs">Instagram</p>
+                      <p className="text-xs">
+                        Highlights from Shreya’s journey with the AI Club and her impactful contributions in AI.
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
 
 
@@ -331,7 +331,8 @@ function App() {
                     boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                   }}
                 >
-                  <h2 className="text-xl font-bold mb-4">Contact Me</h2>
+                  <h2 className="text-xl font-bold mb-4 text-center">Contact Me</h2>
+
 
                   {/* Contact Buttons */}
                   <div className="flex justify-around items-center gap-4 mt-auto">
