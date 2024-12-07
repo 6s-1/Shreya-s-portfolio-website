@@ -3,15 +3,18 @@ import React from "react";
 
 function Projects() {
   return (
-    <div
-      className="min-h-screen w-full"
-      style={{
-        backgroundImage: `url("bg_project-v1.svg")`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        zIndex: -1,
-      }}
-    >
+    <div className="relative min-h-screen w-full">
+      {/* Fixed Background */}
+      <div
+        className="fixed top-0 left-0 w-full h-full"
+        style={{
+          backgroundImage: `url("/bg_project-v1.svg")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed",
+          zIndex: -1,
+        }}
+      ></div>
       {/* <object
         type="image/svg+xml"
         data="public/bg_project-v1.svg"
