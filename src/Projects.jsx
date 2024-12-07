@@ -5,8 +5,14 @@ function Projects() {
   return (
     <div
       className="min-h-screen w-full"
+      style={{
+        backgroundImage: `url("/bg_project-v1.svg")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        zIndex: -1,
+      }}
     >
-      <object
+      {/* <object
         type="image/svg+xml"
         data="public/bg_project-v1.svg"
         className="fixed top-0 left-0 w-full h-full"
@@ -15,7 +21,7 @@ function Projects() {
         }}
       >
         Your browser does not support SVG.
-      </object>
+      </object> */}
       <div
         className="container mx-auto grid grid-cols-3 grid-rows-7 gap-y-3 gap-x-4 p-4"
         style={{ gridTemplateColumns: "1fr 1fr 1fr" }}
