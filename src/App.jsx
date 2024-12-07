@@ -46,7 +46,7 @@ function App() {
             >
               <object
                 type="image/svg+xml"
-                data="/bg_main-v1.svg"
+                data="bg_main-v1.svg"
                 className="absolute w-full h-full"
                 style={{
                   zIndex: -1,
@@ -305,7 +305,7 @@ function App() {
                     >
                       <object
                         type="image/svg+xml"
-                        data="/GitHub_button.svg"
+                        data="GitHub_button.svg"
                         className="w-full h-full object-cover"
                         style={{ pointerEvents: "none" }}
                       >
@@ -325,7 +325,7 @@ function App() {
                     >
                       <object
                         type="image/svg+xml"
-                        data="/Gmail_button.svg"
+                        data="Gmail_button.svg"
                         className="w-full h-full object-cover"
                         style={{ pointerEvents: "none" }}
                       >
@@ -348,7 +348,7 @@ function App() {
                     >
                       <object
                         type="image/svg+xml"
-                        data="/linkedIn_button.svg"
+                        data="linkedIn_button.svg"
                         className="w-full h-full object-cover"
                         style={{ pointerEvents: "none" }}
                       >

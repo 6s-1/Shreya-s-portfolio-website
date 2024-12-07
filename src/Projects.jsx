@@ -6,7 +6,7 @@ function Projects() {
     <div
       className="min-h-screen w-full"
       style={{
-        backgroundImage: `url("/bg_project-v1.svg")`,
+        backgroundImage: `url("bg_project-v1.svg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         zIndex: -1,
