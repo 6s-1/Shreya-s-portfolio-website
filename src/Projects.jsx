@@ -8,7 +8,7 @@ function Projects() {
       <div
         className="fixed top-0 left-0 w-full h-full"
         style={{
-          backgroundImage: `url("bg_project-v1.svg")`,
+          backgroundImage: `url("background_projects.svg")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
