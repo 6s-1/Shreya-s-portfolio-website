@@ -1,7 +1,7 @@
-
 import React from "react";
 
 function Projects() {
+  
   return (
     <div className="relative min-h-screen w-full">
       {/* Fixed Background */}
@@ -105,7 +105,19 @@ function Projects() {
               <li>Modular design with customizability and scalability.</li>
               <li>Comprehensive setup guide for easy integration and use.</li>
             </ul>
-            <h3 className="text-md font-semibold mb-1">Tech Stack:</h3>
+            <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
+  Tech Stack:&nbsp;
+  <img
+    src="chatbot_stack.svg"
+    alt="Tech Stack Icon"
+    style={{
+      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+      width: "13rem", // Match the size in the first example
+      height: "3rem", // Match the size in the first example
+      marginLeft: "0.25rem", // Spacing from the text
+    }}
+  />
+</h3>
           </div>
         </div>
 
@@ -195,7 +207,19 @@ function Projects() {
                 minimize food waste.
               </li>
             </ul>
-            <h3 className="text-md font-semibold mb-1">Tech Stack:</h3>
+            <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
+  Tech Stack:&nbsp;
+  <img
+    src="pantry_stack.svg"
+    alt="Tech Stack Icon"
+    style={{
+      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+      width: "13rem", // Match the size in the first example
+      height: "3rem", // Match the size in the first example
+      marginLeft: "0.25rem", // Spacing from the text
+    }}
+  />
+</h3>
           </div>
         </div>
 
@@ -269,17 +293,27 @@ function Projects() {
 
             <h3 className="text-md font-semibold mb-1">Key Features:</h3>
             <ul className="list-disc list-inside text-sm md:text-base lg:text-lg">
-              <li>Real-time geolocation with GPS APIs and map frameworks for dynamic routing to shelters/food banks.</li>
+              <li>Real-time geolocation with GPS APIs.</li>
+              <li>Map frameworks for dynamic routing to shelters/food banks.</li>
               <li>
-                Google Cloud Services for secure storage and real-time synchronization
-                of user reviews and ratings.
+                Google Cloud Services(Firebase) for secure storage.
               </li>
-              <li>
-                WCAG-compliant UI with adaptive layouts and Google Cloud Translation API
-                for multilingual support.
-              </li>
+              
             </ul>
-            <h3 className="text-md font-semibold mb-1">Tech Stack:</h3>
+            <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
+  Tech Stack:&nbsp;
+  <img
+    src="aid_stack.svg"
+    alt="Tech Stack Icon"
+    style={{
+      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+      width: "13rem", // Match the size in the first example
+      height: "3rem", // Match the size in the first example
+      marginLeft: "0.25rem", // Spacing from the text
+    }}
+  />
+</h3>
+
           </div>
         </div>
 
@@ -365,7 +399,19 @@ function Projects() {
                 for easy navigation and engagement.
               </li>
             </ul>
-            <h3 className="text-md font-semibold mb-1">Tech Stack:</h3>
+            <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
+  Tech Stack:&nbsp;
+  <img
+    src="gandhi_stack.svg"
+    alt="Tech Stack Icon"
+    style={{
+      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+      width: "15rem", // Match the size in the first example
+      height: "3rem", // Match the size in the first example
+      marginLeft: "0.25rem", // Spacing from the text
+    }}
+  />
+</h3>
           </div>
         </div>
 
@@ -445,7 +491,20 @@ function Projects() {
                 timing, and operator locations.
               </li>
             </ul>
-            <h3 className="text-md font-semibold mb-1">Tech Stack:</h3>
+            <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
+  Tech Stack:&nbsp;
+  <img
+    src="aircraft_stack.svg"
+    alt="Tech Stack Icon"
+    style={{
+      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+      width: "11rem", // Match the size in the first example
+      height: "3rem", // Match the size in the first example
+      marginLeft: "0.25rem", // Spacing from the text
+    }}
+  />
+</h3>
+
           </div>
         </div>
 
@@ -522,7 +581,20 @@ function Projects() {
               <li>Automated battery report data collection and processing, storing results in a Postgres database.</li>
               <li>Web interface with Bootstrap for viewing power consumption and tracking emissions.</li>
             </ul>
-            <h3 className="text-md font-semibold mb-1">Tech Stack:</h3>
+            <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
+  Tech Stack:&nbsp;
+  <img
+    src="carbon_stack.svg"
+    alt="Tech Stack Icon"
+    style={{
+      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+      width: "11rem", // Match the size in the first example
+      height: "3rem", // Match the size in the first example
+      marginLeft: "0.25rem", // Spacing from the text
+    }}
+  />
+</h3>
+
           </div>
         </div>
 
@@ -608,10 +680,36 @@ function Projects() {
                 support wildfire management.
               </li>
             </ul>
-            <h3 className="text-md font-semibold mb-1">Tech Stack:</h3>
+            <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
+  Tech Stack:&nbsp;
+  <img
+    src="wildfire_stack.svg"
+    alt="Tech Stack Icon"
+    style={{
+      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+      width: "11rem", // Match the size in the first example
+      height: "3rem", // Match the size in the first example
+      marginLeft: "0.25rem", // Spacing from the text
+    }}
+  />
+</h3>
           </div>
         </div>
-
+{/* Floating Menu Bar
+<div
+  className="fixed bottom-0 left-1/2 transform -translate-x-1/2 text-white flex justify-around items-center p-4 shadow-md z-50 rounded-lg"
+  style={{
+    backgroundColor: "rgb(173, 216, 230)", // Solid light blue background
+  }}
+>
+  <button
+    className="flex flex-col items-center text-sm text-white rounded-lg px-4 py-2 transition-all hover:opacity-90 focus:outline-none"
+    onClick={() => window.scrollTo(0, 0)}
+  >
+    <span className="material-icons">home</span>
+    Home
+  </button>
+</div> */}
       </div>
     </div>
   );

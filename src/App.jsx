@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Projects from "./Projects";
+
 //import './Tile.css';
 
 function App() {
@@ -69,7 +70,7 @@ function App() {
               <div className="grid h-full w-full grid-cols-[repeat(10,_1fr)] grid-rows-[repeat(15,_minmax(50px,_auto))] gap-y-5 gap-x-5 p-4 pr-2 pt-14 xl:m-32 lg:m-16 m:m-4">
 
                 {/* Work Experience Section */}
-                <div className="col-start-7 col-end-12 row-start-1 row-end-9 rounded-xl  p-6 overflow-y-scroll text-white" style={{
+                <div className="col-start-7 col-end-12 row-start-1 row-end-8 rounded-xl  p-6 overflow-y-scroll  bounce-on-load transform transition-transform duration-200  text-white" style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
@@ -178,7 +179,7 @@ function App() {
                 </div>
 
                 {/* Education Section */}
-                <div className="col-start-4 col-end-7 row-start-6 row-end-12 rounded-xl  p-6 overflow-y-scroll text-white custom-scrollbar" style={{
+                <div className="col-start-4 col-end-7 row-start-6 row-end-11 rounded-xl  p-6 overflow-y-scroll text-white  bounce-on-load transform transition-transform duration-200 custom-scrollbar" style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
@@ -190,9 +191,9 @@ function App() {
                     <div className="mb-8 ml-8 bg-white/10 p-4 rounded-lg shadow-lg relative">
                       <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-white/60"></div>
                       <h3 className="text-xl font-semibold font-[Lora]">The University of British Columbia</h3>
-                      <p className="italic mb-2 text-sm">Bachelor's degree, Computer Science (2021 – 2025)</p>
+                      <p className="italic mb-2 text-sm">Bachelor's degree, Computer Science (2021 – 2026)</p>
                       <p className="text-sm">
-                        Dean’s Honour List | Activities: Artificial Intelligence Club (Founder), UBCO Stratoneers Competition Team, Marine Design Competition Team, Piano Club (Managing Director).
+                        Dean’s Honour List | Activities: Artificial Intelligence Club (President & Founder), UBCO Stratoneers Competition Team, Marine Design Competition Team, Piano Club (Managing Director).
                       </p>
                     </div>
 
@@ -211,7 +212,7 @@ function App() {
 
                 {/* Project Section */}
                 <div
-                  className="col-start-1 col-end-4 row-start-1 row-end-9 rounded-xl flex items-center justify-center bounce-on-load transform transition-transform duration-200 active:scale-95 hover:scale-105 cursor-pointer relative"
+                  className="col-start-1 col-end-4 row-start-1 row-end-8 rounded-xl flex items-center justify-center bounce-on-load transform transition-transform duration-200 active:scale-95 hover:scale-105 cursor-pointer relative"
                   style={{
                     backgroundColor: "rgba(255, 255, 255, 0.1)",
                     boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
@@ -231,7 +232,7 @@ function App() {
 
 
                 {/* Featured Section */}
-                <div className="col-start-9 col-end-12 row-start-9 row-end-12 rounded-xl p-6 overflow-y-scroll text-white" style={{
+                <div className="col-start-9 col-end-12 row-start-8 row-end-11 rounded-xl p-6 overflow-y-scroll  bounce-on-load transform transition-transform duration-200 text-white" style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
                 }}>
@@ -275,11 +276,13 @@ function App() {
                   </div>
                 </div>
 
+               
+
 
 
                 {/* Resume Section with SVG Button */}
                 <div
-                  className="col-start-1 col-end-4 row-start-9 row-end-12 rounded-xl  flex items-center justify-center bounce-on-load transform transition-transform duration-200 active:scale-95 hover:scale-105 cursor-pointer relative"
+                  className="col-start-1 col-end-4 row-start-8 row-end-11 rounded-xl  flex items-center justify-center bounce-on-load transform transition-transform duration-200 active:scale-95 hover:scale-105 cursor-pointer relative"
                   style={{
                     backgroundColor: "rgba(255, 255, 255, 0.1)",
                     boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
@@ -307,7 +310,7 @@ function App() {
                 >
                   <object
                     type="image/svg+xml"
-                    data="resume_button-2.svg"
+                    data="resume_button-3.svg"
                     className="w-full h-full object-cover"
                     style={{ pointerEvents: "none" }}
                   >
@@ -324,8 +327,9 @@ function App() {
                   </div>
                 </div>
 
+                 {/* Contact Buttons */}
                 <div
-                  className="col-start-7 col-end-9 row-start-9 row-end-12 rounded-xl p-4 text-white bounce-on-load flex flex-col justify-between"
+                  className="col-start-7 col-end-9 row-start-8 row-end-11 rounded-xl p-4 text-white bounce-on-load flex flex-col justify-between"
                   style={{
                     backgroundColor: "rgba(255, 255, 255, 0.1)",
                     boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
@@ -406,6 +410,7 @@ function App() {
         {/* Project Page */}
         <Route path="/projects" element={<Projects />} />
       </Routes>
+     
     </>
   );
 }
