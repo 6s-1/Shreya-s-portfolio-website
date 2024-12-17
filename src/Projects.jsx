@@ -1,7 +1,7 @@
 import React from "react";
 
 function Projects() {
-  
+
   return (
     <div className="relative min-h-screen w-full">
       {/* Fixed Background */}
@@ -26,7 +26,7 @@ function Projects() {
         Your browser does not support SVG.
       </object> */}
       <div
-        className="container mx-auto grid grid-cols-3 grid-rows-7 gap-y-3 gap-x-4 p-4"
+        className="container mx-auto grid grid-cols-3 grid-rows-8 gap-y-3 gap-x-4 p-4"
         style={{ gridTemplateColumns: "1fr 1fr 1fr" }}
       >
         {/* Section 1 */}
@@ -106,18 +106,18 @@ function Projects() {
               <li>Comprehensive setup guide for easy integration and use.</li>
             </ul>
             <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
-  Tech Stack:&nbsp;
-  <img
-    src="chatbot_stack.svg"
-    alt="Tech Stack Icon"
-    style={{
-      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
-      width: "13rem", // Match the size in the first example
-      height: "3rem", // Match the size in the first example
-      marginLeft: "0.25rem", // Spacing from the text
-    }}
-  />
-</h3>
+              Tech Stack:&nbsp;
+              <img
+                src="chatbot_stack.svg"
+                alt="Tech Stack Icon"
+                style={{
+                  filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+                  width: "13rem", // Match the size in the first example
+                  height: "3rem", // Match the size in the first example
+                  marginLeft: "0.25rem", // Spacing from the text
+                }}
+              />
+            </h3>
           </div>
         </div>
 
@@ -208,18 +208,18 @@ function Projects() {
               </li>
             </ul>
             <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
-  Tech Stack:&nbsp;
-  <img
-    src="pantry_stack.svg"
-    alt="Tech Stack Icon"
-    style={{
-      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
-      width: "13rem", // Match the size in the first example
-      height: "3rem", // Match the size in the first example
-      marginLeft: "0.25rem", // Spacing from the text
-    }}
-  />
-</h3>
+              Tech Stack:&nbsp;
+              <img
+                src="pantry_stack.svg"
+                alt="Tech Stack Icon"
+                style={{
+                  filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+                  width: "18rem", // Match the size in the first example
+                  height: "3rem", // Match the size in the first example
+                  marginLeft: "0.25rem", // Spacing from the text
+                }}
+              />
+            </h3>
           </div>
         </div>
 
@@ -298,21 +298,21 @@ function Projects() {
               <li>
                 Google Cloud Services(Firebase) for secure storage.
               </li>
-              
+
             </ul>
             <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
-  Tech Stack:&nbsp;
-  <img
-    src="aid_stack.svg"
-    alt="Tech Stack Icon"
-    style={{
-      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
-      width: "13rem", // Match the size in the first example
-      height: "3rem", // Match the size in the first example
-      marginLeft: "0.25rem", // Spacing from the text
-    }}
-  />
-</h3>
+              Tech Stack:&nbsp;
+              <img
+                src="aid_stack.svg"
+                alt="Tech Stack Icon"
+                style={{
+                  filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+                  width: "13rem", // Match the size in the first example
+                  height: "3rem", // Match the size in the first example
+                  marginLeft: "0.25rem", // Spacing from the text
+                }}
+              />
+            </h3>
 
           </div>
         </div>
@@ -400,18 +400,18 @@ function Projects() {
               </li>
             </ul>
             <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
-  Tech Stack:&nbsp;
-  <img
-    src="gandhi_stack.svg"
-    alt="Tech Stack Icon"
-    style={{
-      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
-      width: "15rem", // Match the size in the first example
-      height: "3rem", // Match the size in the first example
-      marginLeft: "0.25rem", // Spacing from the text
-    }}
-  />
-</h3>
+              Tech Stack:&nbsp;
+              <img
+                src="gandhi_stack.svg"
+                alt="Tech Stack Icon"
+                style={{
+                  filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+                  width: "15rem", // Match the size in the first example
+                  height: "3rem", // Match the size in the first example
+                  marginLeft: "0.25rem", // Spacing from the text
+                }}
+              />
+            </h3>
           </div>
         </div>
 
@@ -492,18 +492,18 @@ function Projects() {
               </li>
             </ul>
             <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
-  Tech Stack:&nbsp;
-  <img
-    src="aircraft_stack.svg"
-    alt="Tech Stack Icon"
-    style={{
-      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
-      width: "11rem", // Match the size in the first example
-      height: "3rem", // Match the size in the first example
-      marginLeft: "0.25rem", // Spacing from the text
-    }}
-  />
-</h3>
+              Tech Stack:&nbsp;
+              <img
+                src="aircraft_stack.svg"
+                alt="Tech Stack Icon"
+                style={{
+                  filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+                  width: "11rem", // Match the size in the first example
+                  height: "3rem", // Match the size in the first example
+                  marginLeft: "0.25rem", // Spacing from the text
+                }}
+              />
+            </h3>
 
           </div>
         </div>
@@ -582,18 +582,18 @@ function Projects() {
               <li>Web interface with Bootstrap for viewing power consumption and tracking emissions.</li>
             </ul>
             <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
-  Tech Stack:&nbsp;
-  <img
-    src="carbon_stack.svg"
-    alt="Tech Stack Icon"
-    style={{
-      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
-      width: "11rem", // Match the size in the first example
-      height: "3rem", // Match the size in the first example
-      marginLeft: "0.25rem", // Spacing from the text
-    }}
-  />
-</h3>
+              Tech Stack:&nbsp;
+              <img
+                src="carbon_stack.svg"
+                alt="Tech Stack Icon"
+                style={{
+                  filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+                  width: "11rem", // Match the size in the first example
+                  height: "3rem", // Match the size in the first example
+                  marginLeft: "0.25rem", // Spacing from the text
+                }}
+              />
+            </h3>
 
           </div>
         </div>
@@ -681,21 +681,116 @@ function Projects() {
               </li>
             </ul>
             <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
-  Tech Stack:&nbsp;
-  <img
-    src="wildfire_stack.svg"
-    alt="Tech Stack Icon"
-    style={{
-      filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
-      width: "11rem", // Match the size in the first example
-      height: "3rem", // Match the size in the first example
-      marginLeft: "0.25rem", // Spacing from the text
-    }}
-  />
-</h3>
+              Tech Stack:&nbsp;
+              <img
+                src="wildfire_stack.svg"
+                alt="Tech Stack Icon"
+                style={{
+                  filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+                  width: "11rem", // Match the size in the first example
+                  height: "3rem", // Match the size in the first example
+                  marginLeft: "0.25rem", // Spacing from the text
+                }}
+              />
+            </h3>
+
           </div>
         </div>
-{/* Floating Menu Bar
+        {/* Section 8 */}
+        <div
+          className="
+            col-span-3 
+            row-start-8 
+            rounded-xl 
+            p-4 
+            flex 
+            flex-row 
+            items-center 
+            justify-start 
+             text-white 
+            overflow-hidden
+            shadow-lg 
+            mx-8
+            font-quantico
+          "
+          style={{
+            backgroundColor: "rgba(255, 255, 255, 0.1)", // Greyish transparent background
+            boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)", // Subtle shadow for depth
+          }}
+        >
+          {/* SVG Section */}
+          <div className="relative">
+            <object
+              type="image/svg+xml"
+              data="website.svg"
+              className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
+              style={{
+                filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
+              }}
+            >
+              Your browser does not support SVG.
+            </object>
+
+            {/* Code Button */}
+            <a
+              href="https://github.com/6s-1/Shreya-s-portfolio-website"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                absolute 
+                bottom-4 
+                right-4 
+                bg-gray-700 
+                hover:bg-gray-600 
+                text-white 
+                font-semibold 
+                px-4 
+                py-2 
+                rounded-lg 
+                flex 
+                items-center
+                text-sm
+              "
+            >
+              <span className="material-icons mr-2">code</span>
+            </a>
+          </div>
+
+          {/* Text and Details Section */}
+          <div className="ml-4 flex-grow">
+            <h2 className="text-2xl font-bold mb-2">Personal portfolio website</h2>
+            <p className="text-sm md:text-base lg:text-lg mb-2">
+            A visually engaging and highly responsive personal portfolio website built to effectively highlight my skills, projects, and accomplishments 
+            while maintaining a clean and modern aesthetic.  
+            </p>
+
+            <h3 className="text-md font-semibold mb-1">Key Features:</h3>
+            <ul className="list-disc list-inside text-sm md:text-base lg:text-lg">
+            <li>Designed using the Bento Box method for a clean and modular layout.</li>
+  <li>Built with custom-built SVG graphics for a unique and engaging design.</li>
+  <li>Hosted with GitHub Actions for CI/CD, following an iterative development process.</li>
+
+            </ul>
+            <h3 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "0.25rem", display: "flex", alignItems: "center" }}>
+              Tech Stack:&nbsp;
+              <img
+                src="website_stack.svg"
+                alt="Tech Stack Icon"
+                style={{
+                  filter: "drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2))",
+                  width: "18rem", // Match the size in the first example
+                  height: "3rem", // Match the size in the first example
+                  marginLeft: "0.25rem", // Spacing from the text
+                }}
+              />
+            </h3>
+          </div>
+        </div>
+
+
+
+
+        {/* Floating Menu Bar
 <div
   className="fixed bottom-0 left-1/2 transform -translate-x-1/2 text-white flex justify-around items-center p-4 shadow-md z-50 rounded-lg"
   style={{
@@ -711,7 +806,9 @@ function Projects() {
   </button>
 </div> */}
       </div>
+
     </div>
+
   );
 }
 
