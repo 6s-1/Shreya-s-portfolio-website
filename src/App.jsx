@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Projects from "./Projects";
+import 'simplebar/dist/simplebar.min.css';
+
 
 //import './Tile.css';
 
@@ -45,16 +47,16 @@ function App() {
               className="h-screen w-full flex items-center justify-center"
 
             >
-              <object
-                type="image/svg+xml"
-                data="bg_main-v1.svg"
-                className="absolute w-full h-full"
-                style={{
-                  zIndex: -1,
-                }}
-              >
-                Your browser does not support SVG.
-              </object>
+              <div
+  className="fixed top-0 left-0 w-full h-full"
+  style={{ zIndex: -1 }}
+>
+  <object
+    type="image/svg+xml"
+    data="bg_main-v1.svg"
+    className="w-full h-full"
+  />
+</div>
 
 
               {/* Tile Animation Grid */}
@@ -73,11 +75,13 @@ function App() {
                 <div className="col-start-7 col-end-12 row-start-1 row-end-8 rounded-xl  p-6 overflow-y-scroll  bounce-on-load transform transition-transform duration-200  text-white" style={{
                   backgroundColor: "rgba(255, 255, 255, 0.1)",
                   boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
-                }}>
+                  
+                }}
+                >
                   <h2 className="text-2xl font-bold font-[Lora] mb-8 text-center">Experience & Interships</h2>
 
                   {/* Timeline Container */}
-                  <div className="relative border-l-4 border-white/60">
+                  <div className="relative border-l-4 border-white/60" data-simplebar>
                     {/* Software Engineering Intern - Ericsson */}
                     <div className="mb-8 ml-8 bg-white/10 p-4 rounded-lg shadow-lg relative">
                       <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-white/60"></div>

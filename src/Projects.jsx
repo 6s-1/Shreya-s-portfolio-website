@@ -6,15 +6,15 @@ function Projects() {
     <div className="relative min-h-screen w-full">
       {/* Fixed Background */}
       <div
-        className="fixed top-0 left-0 w-full h-full"
-        style={{
-          backgroundImage: `url("background_projects.svg")`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
-          zIndex: -1,
-        }}
-      ></div>
+  className="fixed top-0 left-0 w-full h-full"
+  style={{ zIndex: -1 }}
+>
+  <object
+    type="image/svg+xml"
+    data="bg_main-v1.svg"
+    className="w-full h-full"
+  />
+</div>
       {/* <object
         type="image/svg+xml"
         data="public/bg_project-v1.svg"
