@@ -58,8 +58,7 @@ yarn build
 The production-ready files will be generated in the `dist` folder.
 
 ### Deploying
-This project is configured with **GitHub Actions** for automated deployment. Ensure your repository settings are properly configured for deployment to GitHub Pages or your preferred hosting platform.
-
+This project is configured with **GitHub Actions** for automated deployment.
 ## Folder Structure
 ```
 .
@@ -72,9 +71,6 @@ This project is configured with **GitHub Actions** for automated deployment. Ens
 ├── .github          # GitHub Actions workflows
 └── vite.config.js   # Vite configuration file
 ```
-
-## Contributing
-Contributions are welcome! If you have suggestions or improvements, feel free to submit an issue or a pull request.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
