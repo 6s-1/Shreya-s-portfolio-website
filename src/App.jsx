@@ -293,10 +293,10 @@ function App() {
                   }}
                   onClick={() => {
                     console.log("Testing");
-                    const resumePath = "Shreya-Saxena-Resume.pdf";
+                    const resumePath = "Shreya_Saxena_Resume.pdf";
                     const anchor = document.createElement("a");
                     anchor.href = resumePath;
-                    anchor.download = "Shreya-Saxena-Resume.pdf";
+                    anchor.download = "Shreya_Saxena_Resume.pdf";
                     console.log(anchor);
                     document.body.appendChild(anchor);
                     anchor.click();

@@ -6,9 +6,10 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router basename="/Shreya-s-portfolio-website"> {/* Replace <repository-name> with your actual repository name */}
+    <Router /*basename="/Shreya-s-portfolio-website"*/> {/* Replace <repository-name> with your actual repository name */}
       <App />
     </Router>
   </StrictMode>,
   
 );
+//
