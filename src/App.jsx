@@ -400,7 +400,7 @@ function App() {
                         className="w-full h-full object-cover"
                         style={{ pointerEvents: "none" }}
                       >
-                        Your browser does not support SVG.
+                        Your browser does not support SVG. {/*message to display on browsers where SVGs dont work*/}
                       </object>
                     </div>
                   </div>
@@ -414,9 +414,10 @@ function App() {
         {/* Project Page */}
         <Route path="/projects" element={<Projects />} />
       </Routes>
-     
+
+
+
     </>
   );
 }
-
 export default App;
