@@ -53,7 +53,7 @@ function App() {
 >
   <object
     type="image/svg+xml"
-    data="/Shreya-s-portfolio-website/public/bg_main-v1.svg"
+    data="bg_main-v1.svg"
     className="w-full h-full"
   />
 </div>
