@@ -82,11 +82,19 @@ function App() {
 
                   {/* Timeline Container */}
                   <div className="relative border-l-4 border-white/60" data-simplebar>
+                                    
+                    {/* Software Engineering Intern - Amazon */}
+                    <div className="mb-8 ml-8 bg-white/10 p-4 rounded-lg shadow-lg relative">
+                      <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-white/60"></div>
+                      <h3 className="text-xl font-semibold font-[Lora]">Software Engineering Intern, Amazon</h3>
+                      <p className="italic mb-2 text-sm">Apr 2025 – Aug 2025</p>
+                    </div>
+                  
                     {/* Software Engineering Intern - Ericsson */}
                     <div className="mb-8 ml-8 bg-white/10 p-4 rounded-lg shadow-lg relative">
                       <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-white/60"></div>
                       <h3 className="text-xl font-semibold font-[Lora]">Software Engineering Intern, Ericsson</h3>
-                      <p className="italic mb-2 text-sm">Sep 2024 – Present</p>
+                      <p className="italic mb-2 text-sm">Sep 2024 – Apr 2025</p>
                     </div>
 
                     {/* Undergraduate Research Assistant - Rogers Communications */}
@@ -244,6 +252,41 @@ function App() {
 
                   {/* Timeline Container */}
                   <div className="relative border-l-4 border-white/60">
+
+                  {/* MediaPlanet Highlights */}
+                  <div className="mb-8 ml-8 bg-white/10 p-3 rounded-lg shadow-lg relative">
+                      <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white/60"></div>
+                      <a
+                        href="https://www.innovatingcanada.ca/technology/canadian-innovation-2025/cultivating-tomorrows-talent-why-internships-matter-more-than-ever/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300 underline text-sm font-semibold"
+                      >
+                        Shreya Saxena featured on MediaPlanet.
+                      </a>
+                      <p className="italic mb-1 text-xs">UBC News</p>
+                      <p className="text-xs">
+                        Shreya Saxena featured on MediaPlanet for her insights on the importance of internships in shaping future talent, highlighting her contributions to the field of computer science and innovation.
+                      </p>
+                    </div>
+
+                  {/* UBC Highlights */}
+                  <div className="mb-8 ml-8 bg-white/10 p-3 rounded-lg shadow-lg relative">
+                      <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white/60"></div>
+                      <a
+                        href="https://news.ok.ubc.ca/2025/04/28/how-one-student-connects-ai-innovation-to-wildfire-research/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300 underline text-sm font-semibold"
+                      >
+                        Shreya Saxena featured on UBC News.
+                      </a>
+                      <p className="italic mb-1 text-xs">UBC News</p>
+                      <p className="text-xs">
+                        Shreya Saxena featured on UBC News for her innovative work in AI and wildfire research, showcasing her contributions to the field of artificial intelligence.
+                      </p>
+                    </div>
+
                     {/* Navigating AI Article */}
                     <div className="mb-8 ml-8 bg-white/10 p-3 rounded-lg shadow-lg relative">
                       <div className="absolute -left-4 top-1/2 transform -translate-y-1/2 w-0 h-0 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent border-r-[8px] border-r-white/60"></div>
@@ -253,7 +296,7 @@ function App() {
                         rel="noopener noreferrer"
                         className="text-blue-400 hover:text-blue-300 underline text-sm font-semibold"
                       >
-                        Shreya Saxena featured in Phoenix News
+                        Shreya Saxena featured in Phoenix News.
                       </a>
                       <p className="italic mb-1 text-xs">Phoenix News</p>
                       <p className="text-xs">
@@ -270,7 +313,7 @@ function App() {
                         rel="noopener noreferrer"
                         className="text-blue-400 hover:text-blue-300 underline text-sm font-semibold"
                       >
-                        Shreya Saxena featured on Instagram
+                        Shreya Saxena featured on Instagram.
                       </a>
                       <p className="italic mb-1 text-xs">Instagram</p>
                       <p className="text-xs">

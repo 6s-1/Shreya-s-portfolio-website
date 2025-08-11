@@ -1,30 +1,31 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { ArrowLeft } from "lucide-react";
 
 function Projects() {
+  const navigate = useNavigate(); // Initialize navigate function
 
   return (
     <div className="relative min-h-screen w-full">
       {/* Fixed Background */}
       <div
-  className="fixed top-0 left-0 w-full h-full"
-  style={{ zIndex: -1 }}
->
-  <object
-    type="image/svg+xml"
-    data="bg_project-v1.svg"
-    className="w-full h-full"
-  />
-</div>
-      {/* <object
-        type="image/svg+xml"
-        data="public/bg_project-v1.svg"
         className="fixed top-0 left-0 w-full h-full"
-        style={{
-          zIndex: -1,
-        }}
+        style={{ zIndex: -1 }}
       >
-        Your browser does not support SVG.
-      </object> */}
+        <object
+          type="image/svg+xml"
+          data="bg_project-v1.svg"
+          className="w-full h-full"
+        />
+      </div>
+
+      <button
+  onClick={() => navigate("/")}
+  className="fixed bottom-6 left-6 bg-gray-800 hover:bg-gray-700 text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-50"
+>
+  <ArrowLeft size={24} />
+</button>
+
       <div
         className="container mx-auto grid grid-cols-3 grid-rows-8 gap-y-3 gap-x-4 p-4"
         style={{ gridTemplateColumns: "1fr 1fr 1fr" }}
