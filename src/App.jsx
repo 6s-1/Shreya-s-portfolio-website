@@ -264,7 +264,7 @@ function App() {
                       >
                         Shreya Saxena featured on MediaPlanet.
                       </a>
-                      <p className="italic mb-1 text-xs">UBC News</p>
+                      <p className="italic mb-1 text-xs">MediaPlanet News</p>
                       <p className="text-xs">
                         Shreya Saxena featured on MediaPlanet for her insights on the importance of internships in shaping future talent, highlighting her contributions to the field of computer science and innovation.
                       </p>
