@@ -1,9 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 
 function Projects() {
-  const navigate = useNavigate(); // Initialize navigate function
+  const navigate = useNavigate();
+  
+  const getAssetPath = (filename) => {
+    const basePath = import.meta.env.DEV ? '/' : '/Shreya-s-portfolio-website/';
+    return `${basePath}${filename}`;
+  };
 
   return (
     <div className="relative min-h-screen w-full">
@@ -14,7 +19,7 @@ function Projects() {
       >
         <object
           type="image/svg+xml"
-          data="bg_project-v1.svg"
+          data={getAssetPath("bg_project-v1.svg")}
           className="w-full h-full"
         />
       </div>
@@ -56,7 +61,7 @@ function Projects() {
           <div className="relative">
             <object
               type="image/svg+xml"
-              data="chatbot.svg"
+              data={getAssetPath("chatbot.svg")}
               className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
               style={{
                 filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -148,7 +153,7 @@ function Projects() {
             <a href="#" target="_blank" rel="noopener noreferrer">
               <object
                 type="image/svg+xml"
-                data="pantry_sidekick.svg"
+                data={getAssetPath("pantry_sidekick.svg")}
                 className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
                 style={{
                   filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -250,7 +255,7 @@ function Projects() {
             <a href="#" target="_blank" rel="noopener noreferrer">
               <object
                 type="image/svg+xml"
-                data="aid_finder.svg"
+                data={getAssetPath("aid_finder.svg")}
                 className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
                 style={{
                   filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -344,7 +349,7 @@ function Projects() {
             <a href="#" target="_blank" rel="noopener noreferrer">
               <object
                 type="image/svg+xml"
-                data="gandhian.svg"
+                data={getAssetPath("gandhian.svg")}
                 className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
                 style={{
                   filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -442,7 +447,7 @@ function Projects() {
             <a href="#" target="_blank" rel="noopener noreferrer">
               <object
                 type="image/svg+xml"
-                data="aircraft.svg"
+                data={getAssetPath("aircraft.svg")}
                 className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
                 style={{
                   filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -535,7 +540,7 @@ function Projects() {
             <a href="#" target="_blank" rel="noopener noreferrer">
               <object
                 type="image/svg+xml"
-                data="carbon.svg"
+                data={getAssetPath("carbon.svg")}
                 className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
                 style={{
                   filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -625,7 +630,7 @@ function Projects() {
             <a href="#" target="_blank" rel="noopener noreferrer">
               <object
                 type="image/svg+xml"
-                data="wildfire.svg"
+                data={getAssetPath("wildfire.svg")}
                 className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
                 style={{
                   filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
@@ -723,7 +728,7 @@ function Projects() {
           <div className="relative">
             <object
               type="image/svg+xml"
-              data="website.svg"
+              data={getAssetPath("website.svg")}
               className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 object-cover rounded-xl"
               style={{
                 filter: "drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.3))",
